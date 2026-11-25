@@ -2,7 +2,7 @@
 
 [ProjectSend](https://github.com/projectsend/projectsend) (GPL-2.0): a self-hosted client file-sharing portal with per-client uploads and downloads, groups, roles and an admin panel. Deploy it on Railway with one click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PLACEHOLDER)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/DTbnWV)
 
 ## What this template runs
 - **projectsend**: `ghcr.io/onepush-dev/projectsend:2.10.0`, the official `projectsend/projectsend:2.10.0` image (application unmodified). nginx + PHP-FPM on port 8080 plus the queue workers and scheduler. One volume at `/var/www/html/storage` holds uploads and the generated `APP_KEY`.
