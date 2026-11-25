@@ -5,7 +5,7 @@
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/PLACEHOLDER)
 
 ## What this template runs
-- **projectsend**: `ghcr.io/onepush-dev/projectsend:2.10.0`, the official `projectsend/projectsend:2.10.0` image (application unmodified). nginx + PHP-FPM on port 80 plus the queue workers and scheduler. One volume at `/var/www/html/storage` holds uploads and the generated `APP_KEY`.
+- **projectsend**: `ghcr.io/onepush-dev/projectsend:2.10.0`, the official `projectsend/projectsend:2.10.0` image (application unmodified). nginx + PHP-FPM on port 8080 plus the queue workers and scheduler. One volume at `/var/www/html/storage` holds uploads and the generated `APP_KEY`.
 - **MySQL**: Railway MySQL for the database.
 - **Redis**: Railway Redis for cache, sessions and queue.
 
